@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Nunito;
+}
+
+#telafinal{
+    display: none;
+}
+
+.h1{
+    margin-top: 220px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 90px;
+    
+}
+#placar{
+    color: white;
+}
+.btnMenu{
+    margin-top: 70px;
+    border: none;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.btnMenu:hover{
+    background-color: rgb(89, 98, 226);
+}
+.contMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff10;
+    height: 100vh;
+    
+}
+
+body {
+       
+    background: url(../img/bento_quirino.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Nunito;
+    text-align: center;
+    user-select: none;
+}
+
+#wrapper {
+
+    margin-top: 60px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#wrapper div, #wrapper ul {
+
+    width: 50%;
+    max-width: 300px;
+}
+
+
+ul {
+    padding: 5px;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    background: rgb(89, 98, 226);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+#titulo {
+    font-size: 20px;
+    font-weight: bold;
+    background:  rgb(89, 98, 226);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.alternativa {
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 20px;
+    background:  rgb(89, 98, 226);
+    border-radius: 10px;
+}
+
+.alternativa:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#pontos, #result {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.btnFinal{
+
+    margin-top: 70px;
+    border: none;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.btnFinal:hover{
+
+    background-color: rgb(89, 98, 226);
+
+}
